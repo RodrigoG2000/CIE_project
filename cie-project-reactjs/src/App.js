@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Login from "./Login";
 
 function App() {
   return (
    <div>
-    <h1>LOGIN</h1>
+    <Login/>
    </div>
   );
 }
