@@ -3,8 +3,8 @@ import React from "react";
 export default function Form(){
     return(
         <div className="bg-white px-10 py-20 rounded-3xl border-2 border-gray-100">
-            <h1 className="text-5xl font-semibold">Welcome Back</h1>
-            <p className="font-medium text-lg text-gray-500 mt-4">welcome back! Please enter your details.</p>
+            <h1 className="text-5xl font-semibold text-center">Login "CIE"</h1>
+            <p className="font-medium text-lg text-gray-500 mt-4 text-center">Community Interim Empire</p>
             <div className="mt-8">
                 <div>
                     <label className="text-lg font-medium">Email</label>
@@ -27,10 +27,10 @@ export default function Form(){
                         />
                         <label className="ml-2 font-medium text-base" for = "remember">Remember for 30 days</label>
                     </div>
-                    <button className="font-medium text-base text-violet-500">Forgot password?</button>
+                    <button className="font-medium text-base text-blue-500">Forgot password?</button>
                 </div>
                 <div className="mt-8 flex flex-col gap-y-4">
-                    <button className="active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-lg font-bold">Sing in</button>
+                    <button className="active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-blue-500 text-white text-lg font-bold">Sing in</button>
                     <button className="flex py-3 border-2 rounded-xl border-gray-100 items-center justify-center gap-2 active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.26644 9.76453C6.19903 6.93863 8.85469 4.90909 12.0002 4.90909C13.6912 4.90909 15.2184 5.50909 16.4184 6.49091L19.9093 3C17.7821 1.14545 15.0548 0 12.0002 0C7.27031 0 3.19799 2.6983 1.24023 6.65002L5.26644 9.76453Z" fill="#EA4335"/>
@@ -43,7 +43,7 @@ export default function Form(){
                 </div>
                 <div className="mt-8 flex justify-center items-center">
                     <p className="font-medium text-base">Don´t have an Account</p>
-                    <button className="text-violet-500 text-base font-medium ml-2">Sing up</button>
+                    <button className="text-blue-500 text-base font-medium ml-2">Sing up</button>
                 </div>
             </div>
         </div>
