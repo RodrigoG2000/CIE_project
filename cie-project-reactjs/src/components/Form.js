@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Form(){
     return(
-        <div className="bg-white px-10 py-20 rounded-3xl border-2 border-gray-100">
+        <div className=" bg-white px-10 py-20 rounded-3xl border-2 border-g-100">
             <h1 className="text-5xl font-semibold text-center">Login "CIE"</h1>
             <p className="font-medium text-lg text-gray-500 mt-4 text-center">Community Interim Empire</p>
             <div className="mt-8">
