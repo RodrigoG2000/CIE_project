@@ -25,10 +25,8 @@ public class security {
 
                         authRequest
                                 .requestMatchers("/auth/**").permitAll()
-                                .anyRequest().authenticated()
+                                .anyRequest().permitAll()
                 )
-
-                .formLogin(withDefaults())
                 .build();
 
     }

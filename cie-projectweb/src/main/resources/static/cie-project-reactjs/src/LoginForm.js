@@ -5,8 +5,6 @@ import Presentation from "./components/Presentation";
 
 
 function App() {
-
-  
   return (
    <div>
       <div className = "grid grid-cols-1 lg:grid-cols-2 w-full h-screen">
